@@ -6,18 +6,10 @@
     <description>Recent content in Publication_types on Karim Anaya-Izquierdo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Karim Anaya-Izquierdo</copyright>
-    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication_types/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018 Karim Anaya-Izquierdo</copyright>
     
-    <item>
-      <title>1</title>
-      <link>https://kanayai.github.io/publication_types/1/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://kanayai.github.io/publication_types/1/</guid>
-      <description></description>
-    </item>
+	<atom:link href="https://kanayai.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
