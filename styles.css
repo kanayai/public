@@ -1,7 +1,6 @@
 
 
 
-  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -41,7 +40,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: #EAE7D6;
+  background-color: <no value>;
   margin-top: 71px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
@@ -115,14 +114,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #EF525B;
+  color: <no value>;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #EF525B;
+  color: <no value>;
 }
 
 img,
@@ -342,7 +341,7 @@ a[data-fancybox] img {
 }
 
 .home-section {
-  background-color: #EAE7D6;
+  background-color: <no value>;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
@@ -353,7 +352,7 @@ a[data-fancybox] img {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: #EAE7D6;
+  background-color: <no value>;
 }
 
 @media screen and (max-width: 768px) {
@@ -448,7 +447,7 @@ a[data-fancybox] img {
 .featurette-icon {
   display: block;
   width: 100%;
-  color: #EF525B;
+  color: <no value>;
   font-size: 3rem;
   text-align: center;
 }
@@ -665,7 +664,7 @@ article .article-metadata {
 }
 
 .article-metadata a:hover {
-  color: #EF525B;
+  color: <no value>;
 }
 
 .middot-divider {
@@ -1000,8 +999,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #EF525B !important;
-  background: #EF525B !important;
+  border-color: <no value> !important;
+  background: <no value> !important;
 }
 
 .btn-primary:hover,
@@ -1009,7 +1008,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #EF525B !important;
+  background: <no value> !important;
 }
 
 .btn-light {
@@ -1043,12 +1042,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #DA2536 !important;
+  background-color: <no value> !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: #FF6771 !important;
+  background-color: <no value> !important;
 }
 
 /*************************************************
@@ -1062,12 +1061,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #EF525B !important;
-  border-color: #EF525B !important;
+  color: <no value> !important;
+  border-color: <no value> !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #EF525B !important;
+  color: <no value> !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -1121,7 +1120,7 @@ footer a#back_to_top i {
 }
 
 .navbar-default {
-  background: #24C2CB;
+  background: <no value>;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1144,24 +1143,24 @@ nav#navbar-main li {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #fff;
+  color: <no value>;
   font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-  color: #fff;
+  color: <no value>;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #00828B;
+  color: <no value>;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #00828B;
+  color: <no value>;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1179,11 +1178,11 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff !important;
+  background-color: <no value> !important;
 }
 
 .dropdown-menu {
-  background-color: #24C2CB !important;
+  background-color: <no value> !important;
 }
 
 .dropdown-menu > li > a {
@@ -1192,23 +1191,23 @@ nav#navbar-main li {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #fff;
+  color: <no value>;
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #00828B;
+  color: <no value>;
   text-decoration: none;
-  background-color: #24C2CB;
+  background-color: <no value>;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #24C2CB;
+  color: <no value>;
   text-decoration: none;
-  background-color: #00828B;
+  background-color: <no value>;
   outline: 0;
 }
 
@@ -1216,20 +1215,20 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
-  color: #fff !important;
-  background-color: #24C2CB !important;
+  color: <no value> !important;
+  background-color: <no value> !important;
 }
 
 .navbar-default .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
-  color: #fff;
+  color: <no value>;
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #fff;
+  color: <no value>;
   background-color: transparent;
 }
 
@@ -1294,7 +1293,7 @@ nav#navbar-main li {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #fff;
+    color: <no value>;
     white-space: nowrap;
   }
 
@@ -1311,7 +1310,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #fff;
+    color: <no value>;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1323,7 +1322,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #00828B;
+    color: <no value>;
     background-color: transparent;
   }
 
@@ -1486,7 +1485,7 @@ body.dark {
 }
 
 .dark ul.share li a {
-  background-color: #EF525B;
+  background-color: <no value>;
 }
 
 .dark table table {
@@ -1540,7 +1539,7 @@ body.dark {
 }
 
 .dark .card h4 a {
-  color: #EF525B;
+  color: <no value>;
   border-bottom: solid 1px transparent;
 }
 
